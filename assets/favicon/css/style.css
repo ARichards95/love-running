@@ -50,6 +50,12 @@ header a {
     border-bottom: 1px solid #3a3a3a;
 }
 
+/* Navbar styles with dropdown toggle */
+
+nav {
+    position: absolute;
+}
+
 h1 {
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
