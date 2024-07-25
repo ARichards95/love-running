@@ -42,6 +42,10 @@ header a {
     list-style-type: none;
 }
 
+#menu > li {
+    margin-bottom: 1em;
+}
+
 h1 {
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
