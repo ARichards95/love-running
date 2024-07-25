@@ -44,7 +44,7 @@ header a {
     list-style-type: none;
 }
 
-#menu > li {
+#menu>li {
     margin-bottom: 1em;
 }
 
@@ -100,6 +100,7 @@ footer {
 
 /* Media query: tablets and larger (768 and up) */
 @media screen and (min-width: 768px) {
+
     /* header */
     nav {
         display: block;
@@ -108,12 +109,12 @@ footer {
         width: fit-content;
         padding-right: 1rem;
     }
-    
+
     #menu {
         display: flex;
     }
 
-    #menu > li {
+    #menu>li {
         padding-left: 1rem;
     }
 
@@ -129,8 +130,16 @@ footer {
 
     /* Main content*/
     main {
-    /* Push main content down to accommodate larer header */
-    margin-top: 79px;
+        /* Push main content down to accommodate larer header */
+        margin-top: 79px;
+    }
+}
+    /* Mouse hovered for laptops/desktops */
+    @media screen and (min-width: 992px) {
+
+    #menu a:hover{
+        border-bottom: 1px solid #3a3a3a;
     }
 
 }
+    
